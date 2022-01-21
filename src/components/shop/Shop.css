@@ -1,0 +1,35 @@
+.shop-container{
+    display: grid;
+    grid-template-columns:1fr 6fr 2fr;
+}
+
+.product-container{
+    border-right: 1px solid grey;
+    margin-right: 5px;
+    margin-left: 50px;
+}
+
+
+
+.search-field{
+    background-color: rgb(48, 47, 47);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-field input{
+    width: 80%;
+    height: 20px;
+    height: 25px;
+    font-size: 20px;
+    
+}
+
+#cart-count{
+    font-size: 22px;
+    font-weight: bold;
+    color: orange;
+    text-decoration: underline
+}
